@@ -1,0 +1,5 @@
+entity Task {
+	name String
+    description String
+    dueDate LocalDate    
+}
