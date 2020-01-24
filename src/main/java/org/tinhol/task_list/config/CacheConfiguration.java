@@ -44,6 +44,7 @@ public class CacheConfiguration {
             createCache(cm, org.tinhol.task_list.domain.User.class.getName() + ".authorities");
             createCache(cm, org.tinhol.task_list.domain.PersistentToken.class.getName());
             createCache(cm, org.tinhol.task_list.domain.User.class.getName() + ".persistentTokens");
+            createCache(cm, org.tinhol.task_list.domain.Task.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
